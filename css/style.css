@@ -1,15 +1,17 @@
+/* inicia fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 h1,
 h2,
 h3,
 h4,
+h5,
 p,
 nav,
 div{
     font-family: 'Roboto', sans-serif;
 }
-
+/* termina fuentes */
 
 /* inicia nav */
 .nav{
@@ -17,13 +19,24 @@ div{
 }
 /* termina nav */
 
+html,body{
+    height:100%;
+}
+
 /* inicia body */
 body{
-    /* background-color: #111111; */
     color: black;
-    overflow-x: none;
+    overflow-x: hidden;
+    display:flex;
+    flex-direction: column;
 }
 /* termina body */
+
+/* inicia botones */
+.bg-btn:hover{
+    background-color: #333232;
+}
+/* termina botones /*
 
 /* inicia card */
 .card{
@@ -31,17 +44,27 @@ body{
     width: 18rem;
     margin-top: 2rem;
     color: black;
+    cursor: pointer;
 }
 /* termina card */
 
 /* inicia images */
 .images{
-    width: 20rem;
+    height: 20;
 }
 /* termina images */
+
+/* inicia iframe */
+iframe{
+    min-height: 40%;
+    bottom: 0;
+}
+/* termina iframe */
 
 /* inicia footer */
 .footer{
     background-color: #333232;
+}
+    
 }
 /* termina footer */
