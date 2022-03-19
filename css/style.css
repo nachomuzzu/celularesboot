@@ -17,6 +17,18 @@ div{
 .nav{
     background-color: #333232;
 }
+
+.nav ul li a{
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 99%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+    .nav ul li a:hover{
+        background-size: 100% 2px;
+        font-weight: 550;
+    }
 /* termina nav */
 
 html,body{
