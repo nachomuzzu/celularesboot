@@ -1,0 +1,22 @@
+.nav{
+    background-color: $mainColor;
+    ul{
+        display: flex;
+    
+         li{
+             list-style: none;
+            
+            a{
+                background-image: linear-gradient(currentColor, currentColor);
+                background-position: 0% 99%;
+                background-repeat: no-repeat;
+                background-size: 0% 2px;
+                transition: background-size .3s;
+            
+                &:hover{
+                    background-size: 100% 2px;
+                }
+            }
+        }
+    }  
+}      

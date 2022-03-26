@@ -1,7 +1,7 @@
 /* inicia fuentes */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap'); */
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -10,11 +10,11 @@ p,
 nav,
 div{
     font-family: 'Roboto', sans-serif;
-}
+} */
 /* termina fuentes */
 
 /* inicia nav */
-.nav{
+/* .nav{
     background-color: #333232;
 }
 
@@ -28,31 +28,31 @@ div{
     .nav ul li a:hover{
         background-size: 100% 2px;
         font-weight: 550;
-    }
+    } */
 /* termina nav */
 
-html,body{
+/* html,body{
     height:100%;
 }
 
 /* inicia body */
-body{
+/* body{
     color: black;
     overflow-x: hidden;
     display:flex;
     flex-direction: column;
-}
+} */ 
 /* termina body */
 
 /* inicia botones */
-.bg-btn:hover{
+/* .bg-btn:hover{
     background-color: #333232;
-}
+} */
 /* termina botones /*
 
 /* inicia card */
-.card{
-    /* background-color: #333232; */
+/* .card{
+    background-color: #333232; 
     width: 18rem;
     margin-top: 2rem;
     color: black;
@@ -61,21 +61,21 @@ body{
 /* termina card */
 
 /* inicia images */
-.images{
-    height: 20;
-}
+/* .images{
+    height: 20%;
+} */
 /* termina images */
 
 /* inicia iframe */
-iframe{
+/* iframe{
     min-height: 40%;
     bottom: 0;
-}
+} */
 /* termina iframe */
 
 /* inicia footer */
-.footer{
+/* .footer{
     background-color: #333232;
-}
+} */
 
 /* termina footer */

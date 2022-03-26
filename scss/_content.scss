@@ -1,0 +1,51 @@
+h1, h2, h3, h4, h5{
+    line-height: 1em;
+}
+
+p, nav, div{ 
+    font-size: large;
+    line-height: 1.5em;
+}
+
+html{
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.card{
+    width: 18rem;
+    margin-top: 2rem;
+    color: $mainColor;
+    cursor: pointer;
+    &:hover{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+}
+
+iframe{
+    min-height: 40%;
+    bottom: 0;
+}
+.images{
+    height: 20%;
+}
+
+.bg-btn{
+    background-color: $mainColor;
+    &:hover{
+        background-color: $hoverColor;
+    }
+}
+
+.bg-btnDos{
+    background-color: rgb(255, 255, 255);
+    &:hover{
+        background-color: $hoverColor;
+    }
+}

@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif; }
+
+.nav {
+  background-color: #333232; }
+  .nav ul {
+    display: flex; }
+    .nav ul li {
+      list-style: none; }
+      .nav ul li a {
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 99%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s; }
+        .nav ul li a:hover {
+          background-size: 100% 2px; }
+
+h1, h2, h3, h4, h5 {
+  line-height: 1em; }
+
+p, nav, div {
+  font-size: large;
+  line-height: 1.5em; }
+
+html {
+  height: 100%; }
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden; }
+
+.card {
+  width: 18rem;
+  margin-top: 2rem;
+  color: #333232;
+  cursor: pointer; }
+  .card:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; }
+
+iframe {
+  min-height: 40%;
+  bottom: 0; }
+
+.images {
+  height: 20%; }
+
+.bg-btn {
+  background-color: #333232; }
+  .bg-btn:hover {
+    background-color: #333232; }
+
+.bg-btnDos {
+  background-color: white; }
+  .bg-btnDos:hover {
+    background-color: #333232; }
+
+.footer {
+  background-color: #333232; }
