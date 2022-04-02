@@ -32,7 +32,6 @@ body {
 .card{
     width: 18rem;
     margin-top: 2rem;
-    color: $mainColor;
     cursor: pointer;
     &:hover{
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -68,5 +67,5 @@ iframe{
 
 //footer
 .footer{
-    background-color: $mainColor;
+    background-color: map-get($map: $colores, $key: 'main' );
 }
