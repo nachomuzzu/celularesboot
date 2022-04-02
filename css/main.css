@@ -20,16 +20,14 @@
           background-size: 100% 2px; }
 
 h1, h2, h3, h4, h5 {
+  font-size: auto;
   line-height: 1em; }
 
 p, nav, div {
   font-size: large;
   line-height: 1.5em; }
 
-html {
-  height: 100%; }
-
-body {
+html, body {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -50,15 +48,16 @@ iframe {
 .images {
   height: 20%; }
 
-.bg-btn {
+.bg-btn, .bg-btnDos, .bg-btnTres {
   background-color: #333232; }
-  .bg-btn:hover {
-    background-color: #333232; }
+  .bg-btn:hover, .bg-btnDos:hover, .bg-btnTres:hover {
+    background-color: #444444; }
 
-.bg-btnDos {
+.bg-btnDos, .bg-btnTres {
   background-color: white; }
-  .bg-btnDos:hover {
-    background-color: #333232; }
+
+.bg-btnTres:hover {
+  background-color: #e2e1e1; }
 
 .footer {
   background-color: #333232; }

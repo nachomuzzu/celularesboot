@@ -1,22 +1,33 @@
+// mixins
+@mixin container ($height, $display, $direction, $overflow-x){
+    height: $height;
+    display: $display;
+    flex-direction: $direction;
+    overflow-x: $overflow-x;
+}
+
+@mixin fonts ($font-size, $line-height){
+    font-size: $font-size;
+    line-height: $line-height;
+    
+}
+
+// contenido 
 h1, h2, h3, h4, h5{
-    line-height: 1em;
+    @include fonts (auto, 1em)
 }
 
 p, nav, div{ 
-    font-size: large;
-    line-height: 1.5em;
+    @include fonts (large, 1.5em)
 }
 
 html{
-    height: 100%;
+    @include container(100%, flex, column, hidden)
 }
 
 body {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-}
+    @extend html
+    }
 
 .card{
     width: 18rem;
@@ -37,15 +48,25 @@ iframe{
 }
 
 .bg-btn{
-    background-color: $mainColor;
+    background-color: map-get($map:$colores,$key:'main');
     &:hover{
-        background-color: $hoverColor;
+        background-color: map-get($map:$colores,$key:'hover' );
     }
 }
 
 .bg-btnDos{
-    background-color: rgb(255, 255, 255);
+    @extend .bg-btn;
+    background-color: map-get($map:$colores, $key:'second')
+}
+
+.bg-btnTres{
+    @extend .bg-btnDos;
     &:hover{
-        background-color: $hoverColor;
+        background-color: map-get($map: $colores, $key:'hoverDos') ;
     }
+}
+
+//footer
+.footer{
+    background-color: $mainColor;
 }
