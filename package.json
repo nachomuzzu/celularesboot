@@ -1,7 +1,7 @@
 {
-  "name": "sass",
+  "name": "Celulares Muzzupappa",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sitio web de venta de celulares",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
