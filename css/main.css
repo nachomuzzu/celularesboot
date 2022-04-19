@@ -58,5 +58,12 @@ iframe {
 .bg-btnTres:hover {
   background-color: #e2e1e1; }
 
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #333232; }
+
+.accordion-button.collapsed {
+  background: white; }
+
 .footer {
   background-color: #333232; }
